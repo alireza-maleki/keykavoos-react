@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: #63c4f157;
+}
+
+.todoapp{
+    position: absolute;
+    left: 30%;
+    margin: 20px auto;
+}
+
+.todoapp input{
+    width: 220px;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: rgba(73, 73, 231, 0.1);
+    font-size: 18px;
+}
+
+.todoapp input:focus{
+    outline: none;
+}
+
+.reset{
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: blue;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.reset:hover{
+    background: #fff;
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.todoapp p{
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: rgba(27, 206, 14, 0.2);
+    padding: 12px 14px;
+}
+
+.delete{
+    width: 40;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todobtn{
+    position: absolute;
+    right: 40px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: #fff;
+    background: red;
+    padding: 4px 8px;
+}
+
+.todobtn:hover{
+    cursor: pointer;
+}
